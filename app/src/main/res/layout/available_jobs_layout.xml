@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/companyLogo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_launcher_foreground"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+
+        <TextView
+            android:id="@+id/jobTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/companyLogo"
+            android:layout_toRightOf="@+id/companyLogo"
+            android:paddingTop="5dp"
+            android:text="TextView"
+            android:textColor="@color/subheading"
+            android:textSize="15sp"
+          />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/ic_baseline_business_24" />
+
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jobTitle"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/companyLogo"
+            android:layout_toRightOf="@+id/companyLogo"
+            android:text="TextView"
+            android:textColor="@color/subheading"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/jobType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/companyName"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/companyLogo"
+            android:layout_toRightOf="@+id/companyLogo"
+            android:background="#9ceabf"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textColor="#00c200 "
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/companyLogo"
+            android:layout_alignParentBottom="@+id/jobType"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/companyLogo"
+            android:layout_toRightOf="@+id/companyLogo"
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/barangay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/companyLogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_baseline_my_location_24"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jobPostCreated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="6dp"
+            android:text="Job Created"
+            android:textColor="@color/subheading"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

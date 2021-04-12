@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_jobs"
+            android:title="Find Jobs"
+            android:icon="@drawable/ic_jobs" />
+        <item
+            android:id="@+id/viewjobs"
+            android:title="View All Jobs"
+            android:icon="@drawable/ic_setting"/>
+        <item
+            android:id="@+id/appliedJobs"
+            android:title="Applied Jobs"
+            android:icon="@drawable/ic_baseline_pending_actions_24"/>
+        <item
+            android:id="@+id/savedJobs"
+            android:title="Saved Jobs"
+            android:icon="@drawable/ic_baseline_bookmark_24"/>
+        <item
+            android:id="@+id/nav_training"
+            android:title="Trainings"
+            android:icon="@drawable/ic_training"/>
+        <item
+            android:id="@+id/nav_programs"
+            android:title="Programs"
+            android:icon="@drawable/ic_programs"/>
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="See profile"
+                    android:icon="@drawable/ic_profile"/>
+                <item
+                    android:id="@+id/nav_notification"
+                    android:title="Notification"
+                    android:icon="@drawable/ic_notification"/>
+                <item
+                    android:id="@+id/nav_message"
+                    android:title="Messages"
+                    android:icon="@drawable/ic_message"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_logout"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Others">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rate"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Trabahope"
+            android:icon="@drawable/ic_about"/>
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@drawable/ic_shared"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:title="Settings"
+            android:icon="@drawable/ic_setting"/>
+    </group>
+        </menu>
+    </item>
+</menu>

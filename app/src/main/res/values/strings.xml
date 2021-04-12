@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TrabahopeApp</string>
+
+    <string name="create_account">Create\nAccount</string>
+    <string name="featured_training">ALL FEATURED TRAINING</string>
+    <string name="featured_training_description">All the trainings that are featured and have the top demand in the company!</string>
+    <string name="most_viewed">MOST VIEWED</string>
+    <string name="view_all">View All</string>
+    <string name="view_jobs">Available Jobs</string>
+    <string name="view_programs">DOLE Programs</string>
+
+    <string name="menu_slogan">There is hope in trabahope</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="job_type">
+        <item>Part Time</item>
+        <item>Full Time</item>
+        <item>Contract</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="civilstatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Separated</item>
+        <item>Widowed</item>
+        <item>Common Law</item>
+    </string-array>
+
+
+</resources>
